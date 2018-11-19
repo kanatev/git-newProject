@@ -29,10 +29,23 @@
                                     <action selector="button:" destination="BYZ-38-t0r" eventType="touchUpInside" id="CDU-VL-k6g"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4DM-As-XTx">
+                                <rect key="frame" x="125" y="186" width="125" height="65"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="4DM-As-XTx" secondAttribute="height" multiplier="25:13" id="dTX-HE-iKM"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="44"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="button:" destination="BYZ-38-t0r" eventType="touchUpInside" id="uyf-Hd-ZDU"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="4DM-As-XTx" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="RW5-ga-KDj"/>
                             <constraint firstItem="qKf-FP-f2a" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="Tby-NT-Hhl"/>
+                            <constraint firstItem="4DM-As-XTx" firstAttribute="top" secondItem="qKf-FP-f2a" secondAttribute="bottom" constant="75" id="giE-Tt-ch2"/>
                             <constraint firstItem="qKf-FP-f2a" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="26" id="tkF-mF-M9T"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
